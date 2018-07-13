@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">mini</string>
+    <string name="submit">submit</string>
+    <string name="new_here_10_click_here_to_register">new here…?\n click here to register</string>
+    <string name="password">password</string>
+    <string name="email">email</string>
+    <string name="login">login</string>
+    <string name="register">register</string>
+    <string name="first_name">first name</string>
+    <string name="last_name">last name</string>
+    <string name="phone_no">phone no</string>
+    <string name="set_password">set password</string>
+    <string name="retype_password">retype-password</string>
+    <string name="welcome_to_our_app">welcome to our app</string>
+    <string name="name">name</string>
+    <string name="click_here_to_register">click here to register</string>
+    <string name="title_activity_images">ImagesActivity</string>
+</resources>

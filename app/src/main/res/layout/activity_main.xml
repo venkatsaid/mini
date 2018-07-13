@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/colorPrimary"
+    android:layout_gravity="center_horizontal"
+    android:id="@+id/l1">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimary"
+        android:text="@string/login"
+        android:textColor="@color/colorAccent"
+        android:fontFamily="serif"
+        android:layout_gravity="center"
+        android:layout_marginTop="90dp"
+        android:layout_marginBottom="90dp"
+        android:textSize="50sp" />
+
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginBottom="15dp">
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="12"
+            android:textColor="@color/colorAccent"
+            android:hint="@string/email"
+            android:inputType="textEmailAddress"
+            android:background="@drawable/edittext"
+            android:layout_gravity="center"
+            android:id="@+id/lmail"/>
+        <requestFocus/>
+    </android.support.design.widget.TextInputLayout>
+
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center">
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/colorAccent"
+            android:ems="12"
+            android:inputType="textPassword"
+            android:hint="@string/password"
+            android:background="@drawable/edittext"
+            android:id="@+id/lpass" />
+    </android.support.design.widget.TextInputLayout>
+
+    <Button
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:theme="@style/MyButton"
+        android:layout_marginTop="45dp"
+        android:layout_marginBottom="30dp"
+        android:textSize="20sp"
+        android:fontFamily="serif"
+        android:textAllCaps="false"
+        android:text="@string/submit"
+        android:textColor="@color/colorPrimary"
+        android:id="@+id/lsubmit"/>
+
+    <TextView
+        android:id="@+id/lregister"
+        android:layout_width="wrap_content"
+        android:layout_gravity="center"
+        android:layout_height="wrap_content"
+        android:text="@string/click_here_to_register"
+        android:textColor="@color/colorAccent"
+        android:textSize="25sp"
+        android:fontFamily="serif"/>
+    </LinearLayout>
